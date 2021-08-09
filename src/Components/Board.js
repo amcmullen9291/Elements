@@ -20,6 +20,18 @@ const [Question, setQuestions ] = useState(Questions)
 
     let questionbutton = document.getElementById('QuestionButton');
     questionbutton.disabled = false;
+
+    let button1 = document.getElementById('rightanswer');
+    let button2 = document.getElementById('answer2');
+    let button3 = document.getElementById('answer3');
+    let button4 = document.getElementById('answer4');
+    let button5 = document.getElementById('answer5');
+
+  button1.disabled = true;
+  button2.disabled = true;
+  button3.disabled = true;
+  button4.disabled = true;
+  button5.disabled = true;
   }
 
   function wrongAnswer(e){
@@ -28,6 +40,20 @@ const [Question, setQuestions ] = useState(Questions)
     score -= 50;
     total.innerHTML = score;
     alert("Nope!");
+    let button1 = document.getElementById('rightanswer');
+    let button2 = document.getElementById('answer2');
+    let button3 = document.getElementById('answer3');
+    let button4 = document.getElementById('answer4');
+    let button5 = document.getElementById('answer5');
+
+  button1.disabled = true;
+  button2.disabled = true;
+  button3.disabled = true;
+  button4.disabled = true;
+  button5.disabled = true;
+
+  let questionbutton = document.getElementById('QuestionButton');
+  questionbutton.disabled = false;
   }
 
 
@@ -82,6 +108,18 @@ console.log("new list:", newList);
   correctAnswer.innerHTML = answer
     let questionbutton = document.getElementById('QuestionButton');
     questionbutton.disabled = true;
+    let button1 = document.getElementById('rightanswer');
+    let button2 = document.getElementById('answer2');
+    let button3 = document.getElementById('answer3');
+    let button4 = document.getElementById('answer4');
+    let button5 = document.getElementById('answer5');
+
+  button1.disabled = false;
+  button2.disabled = false;
+  button3.disabled = false;
+  button4.disabled = false;
+  button5.disabled = false;
+
   }
 
 
