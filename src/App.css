@@ -1,0 +1,19 @@
+  #sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: salmon; /* Black */
+    /* overflow-x: hidden;  */
+    padding-top: 20px;
+    overflow:hidden; 
+    /* overflow-y:scroll; */
+    overflow-x: auto;
+    }
+
+#score{
+  font-size: 36px;
+  color: darkslategrey;
+}
