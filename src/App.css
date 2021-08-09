@@ -43,3 +43,14 @@
   font-size: 24px;
 }
 
+#YourQuestion{
+  font-size: 24px;
+  text-align: center;
+  text-align: -moz-center;
+text-align: -webkit-center;
+
+}
+
+Marquee{
+  position: fixed;
+}
