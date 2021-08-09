@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Marquee from "react-fast-marquee";
 import Questions from './Questions';
 
 export default function Board() {
@@ -81,7 +82,7 @@ console.log("new list:", newList);
   return (
       <>
     <div id="main">
-      <p>HOWDY</p>
+      <Marquee>{Questions.question}</Marquee>
       <img alt="Elements" id="mainBoard" className="table" src={`${process.env.PUBLIC_URL}/elementTable_Background.png`}/>
     <sidenav id="sidenav">
     <div>
