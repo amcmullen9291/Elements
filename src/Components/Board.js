@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 import Questions from './Questions';
+import Marquee from 'react-double-marquee';
 
 export default function Board() {
 
@@ -14,7 +15,11 @@ const [Question, setQuestions ] = useState(Questions)
     let total = document.getElementById('score');
     score += 50;
     total.innerHTML = score;
+    let challenge = document.getElementById('YourQuestion');
+    challenge.innerHTML = "";
 
+    let questionbutton = document.getElementById('QuestionButton');
+    questionbutton.disabled = false;
   }
 
   function wrongAnswer(e){
@@ -46,6 +51,9 @@ console.log("new list:", newList);
   let randomQuestion = Math.floor(Math.random() * Questions.length-1) + 1;
   let question = Questions[randomQuestion];
   console.log("Question:", question.question)
+  let challenge = document.getElementById('YourQuestion');
+  let words = question.question;
+  challenge.append(words);
   let answer = question.answer;
   let answer1 = document.getElementById(`${newList[0]}`);
   let answer2 = document.getElementById(`${newList[1]}`);
@@ -72,6 +80,8 @@ console.log("new list:", newList);
   area1.append(answer5);
   let correctAnswer = document.getElementById('rightanswer');
   correctAnswer.innerHTML = answer
+    let questionbutton = document.getElementById('QuestionButton');
+    questionbutton.disabled = true;
   }
 
 
@@ -82,7 +92,9 @@ console.log("new list:", newList);
   return (
       <>
     <div id="main">
-      <Marquee>{Questions.question}</Marquee>
+      <Marquee>
+        <center><p id="YourQuestion"></p></center>
+      </Marquee>
       <img alt="Elements" id="mainBoard" className="table" src={`${process.env.PUBLIC_URL}/elementTable_Background.png`}/>
     <sidenav id="sidenav">
     <div>
@@ -100,7 +112,7 @@ console.log("new list:", newList);
     <div id="area5"><br/></div>
     <br/>
     <hr/>
-    <button onClick={nextQuestion}>Next Question</button>
+    <button id="QuestionButton" onClick={nextQuestion}>Next Question</button>
 
     </center>
     </sidenav>
