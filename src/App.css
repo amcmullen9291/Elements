@@ -1,19 +1,38 @@
   #sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 20%; /* Set the width of the sidebar */
+    height: 75%;
+    width: 19%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
-    right: 0;
+    right: .70%;
     background-color: salmon; /* Black */
-    /* overflow-x: hidden;  */
+    margin-top: 5%;
     padding-top: 20px;
     overflow:hidden; 
-    /* overflow-y:scroll; */
     overflow-x: auto;
     }
 
 #score{
   font-size: 36px;
   color: darkslategrey;
+}
+
+#mainBoard{
+  max-width: 79%;
+  max-height: auto;
+  border: 10px solid yellow;
+}
+
+.answerButton{
+  margin: 5%;
+  background-color: aqua;
+  box-shadow: 2px 2px 6px mediumblue;
+    -webkit-transition: box-shadow 0.5s 0s ease;
+    transition: box-shadow 0.5s 0s ease;
+}
+
+#main{
+  background-color: seagreen;
+  max-height: auto;
+  max-width:fit-content;
 }
