@@ -21,14 +21,14 @@ const Questions = ([
     {question: "Actually, the U.S. five cent coin, the 'nickel', is composed  primarily of this metal.", answer: "Copper", placebo1: "Zinc", placebo2: "", placebo3: "Aluminum", placebo4: "Silver", placebo5: "Uranium"},
     {question: "Wait one second. The official currency of the United Kingdom, the pound sterling, was originally equal in value to one pound of this metal.", answer: "Silver", placebo1: "Gold", placebo2: "Aluminum", placebo3: "Platinum", placebo4: "Titanium", placebo5: "Iron"},
     {question: "Beautiy is only skin deep. This element gets its name from the Spanish word 'platina' which means 'silver.'", answer: "Platinum", placebo1: "Helium", placebo2: "Copper", placebo3: "Tungsten", placebo4: "Gold", placebo5: "Scandium"},
-    // {question: "Another one bites the dust. This element is the only metal that is liquid at room temperature.", answer: "Mercury", placebo1: "", placebo2: "", placebo3: "", placebo4: "", placebo5: ""},
-    // {question: "This is the only element that can exist without neutrons.", answer: "Hydrogen", placebo1: "", placebo2: "", placebo3: "", placebo4: "", placebo5: ""},
-    // {question: "When ____________ becomes a liquid at -210.00 degrees C. it looks like water.", answer: "Nitrogen", placebo1: "", placebo2: "", placebo3: "", placebo4: "", placebo5: ""},
-    // {question: "Although we often refer to the air we breathe as 'oxygen', the most common element in our air is __________.", answer: "Nitrogen", placebo1: "", placebo2: "", placebo3: "", placebo4: "", placebo5: ""},
-    // {question: "They used this element to create the first atomic bomb used in World War II. This bomb was called 'Little Boy' and it was dropped on Hiroshima, Japan.", answer: "Uranium", placebo1: "", placebo2: "", placebo3: "", placebo4: "", placebo5: ""},
-    // {question: "It was used to create the second nuclear weapon deployed during World War II which was the 'Fat Man' nuclear bomb dropped on Nagasaki, Japan.", answer: "Platonium", placebo1: "", placebo2: "", placebo3: "", placebo4: "", placebo5: ""},
-    // {question: "Try not to smile. This element may used as laughing gas when you the dentist.", answer: "Nitrogen", placebo1: "Helium", placebo2: "", placebo3: "", placebo4: "", placebo5: ""},
-    // {question: "Ugh. The smelly stuff in the swimming pool. ", answer: "Chlorine", placebo1: "", placebo2: "", placebo3: "", placebo4: "", placebo5: ""},
+    {question: "Another one bites the dust. This element is the only metal that is liquid at room temperature.", answer: "Mercury", placebo1: "Plutonium", placebo2: "Silicon", placebo3: "Phosphorus", placebo4: "Zinc", placebo5: "Mica"},
+    {question: "This is the only element that can exist without neutrons.", answer: "Hydrogen", placebo1: "Helium", placebo2: "Zinc", placebo3: "Lawrencium", placebo4: "Silicon", placebo5: "Potassium"},
+    {question: "When ____________ becomes a liquid at -210.00 degrees C. it looks like water.", answer: "Nitrogen", placebo1: "Hyrdogen", placebo2: "Mercury", placebo3: "Silver", placebo4: "Platinum", placebo5: "Lead"},
+    {question: "Although we often refer to the air we breathe as 'oxygen', the most common element in our air is __________.", answer: "Nitrogen", placebo1: "Helium", placebo2: "Hydrogen", placebo3: "", placebo4: "Neon", placebo5: "Fluorine"},
+    {question: "They used this element to create the first atomic bomb used in World War II. This bomb was called 'Little Boy' and it was dropped on Hiroshima, Japan.", answer: "Uranium", placebo1: "Boron", placebo2: "Carbon", placebo3: "Platonium", placebo4: "Cobalt", placebo5: "Titanium"},
+    {question: "It was used to create the second nuclear weapon deployed during World War II which was the 'Fat Man' nuclear bomb dropped on Nagasaki, Japan.", answer: "Platonium", placebo1: "Carbon", placebo2: "Uranium", placebo3: "Tungsten", placebo4: "Argon", placebo5: "Helium"},
+    {question: "Try not to smile. This element may used as laughing gas when you the dentist.", answer: "Nitrogen", placebo1: "Helium", placebo2: "Oxygen", placebo3: "Magnesium", placebo4: "Fluorine", placebo5: "Radon"},
+    {question: "Ugh. The smelly stuff in the swimming pool. ", answer: "Chlorine", placebo1: "Potassium", placebo2: "Zinc", placebo3: "Mercury", placebo4: "Lead", placebo5: "Silicon"},
 
 ]);
 
