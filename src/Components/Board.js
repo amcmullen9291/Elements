@@ -52,8 +52,11 @@ const [Question, setQuestions ] = useState(Questions)
   button4.disabled = true;
   button5.disabled = true;
 
-  let questionbutton = document.getElementById('QuestionButton');
-  questionbutton.disabled = false;
+  let challenge2 = document.getElementById('YourQuestion');
+  challenge2.innerHTML = "";
+
+  let questionbutton2 = document.getElementById('QuestionButton');
+  questionbutton2.disabled = false;
   }
 
 
